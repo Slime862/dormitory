@@ -1,0 +1,74 @@
+@startuml
+
+package "controller" {
+    class DormManagerController
+    class VisitController
+    class CheckOutController
+    class CheckInController
+    class RepairController
+    class ScoreController
+    class DormManagerViewController
+    class StuManagerController
+}
+
+package "service" {
+    interface DormManagerServiceI
+    interface VisitServiceI
+    interface CheckOutServiceI
+    interface CheckInServiceI
+    interface RepairServiceI
+    interface ScoreServiceI
+    interface DormManagerViewServiceI
+    interface StuManagerServiceI
+
+    class DormManagerServiceImpl
+    class VisitServiceImpl
+    class CheckOutServiceImpl
+    class CheckInServiceImpl
+    class RepairServiceImpl
+    class ScoreServiceImpl
+    class DormManagerViewServiceImpl
+    class StuManagerServiceImpl
+}
+
+package "repository" {
+    class VisitRepository
+    class CheckOutRepository
+    class CheckInRepository
+    class RepairRepository
+    class ScoreRepository
+    class DormManagerViewRepository
+    class StuManagerRepository
+}
+
+DormManagerController --> DormManagerServiceI : Request dorm manager functions
+VisitController --> VisitServiceI : Request visit management functions
+CheckOutController --> CheckOutServiceI : Request check-out management functions
+CheckInController --> CheckInServiceI : Request check-in management functions
+RepairController --> RepairServiceI : Request repair management functions
+ScoreController --> ScoreServiceI : Request score management functions
+DormManagerViewController --> DormManagerViewServiceI : Request dorm manager view functions
+StuManagerController --> StuManagerServiceI : Request student management functions
+
+DormManagerServiceI <|.. DormManagerServiceImpl : Implements
+VisitServiceI <|.. VisitServiceImpl : Implements
+CheckOutServiceI <|.. CheckOutServiceImpl : Implements
+CheckInServiceI <|.. CheckInServiceImpl : Implements
+RepairServiceI <|.. RepairServiceImpl : Implements
+ScoreServiceI <|.. ScoreServiceImpl : Implements
+DormManagerViewServiceI <|.. DormManagerViewServiceImpl : Implements
+StuManagerServiceI <|.. StuManagerServiceImpl : Implements
+
+VisitServiceImpl --> VisitRepository : Uses
+CheckOutServiceImpl --> CheckOutRepository : Uses
+CheckInServiceImpl --> CheckInRepository : Uses
+RepairServiceImpl --> RepairRepository : Uses
+ScoreServiceImpl --> ScoreRepository : Uses
+DormManagerViewServiceImpl --> DormManagerViewRepository : Uses
+StuManagerServiceImpl --> StuManagerRepository : Uses
+
+@enduml
+
+
+
+

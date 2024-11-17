@@ -1,0 +1,77 @@
+@startuml
+
+package business {
+    package controller {
+        class DormController.java
+        class ExternalController.java
+        class IndexController.java
+        class LoginController.java
+        class RegisterController.java
+        class ScoreController.java
+        class StaffController.java
+        class StuController.java
+    }
+
+    package domain {
+        class Dorm.java
+        class External.java
+        class InRegister.java
+        class OutRegister.java
+        class Registerbatch.java
+        class Repair.java
+        class Score.java
+        class ScoreExtend.java
+        class Scoringbatch.java
+        class Staffinfo.java
+        class Stuinfo.java
+        class User.java
+        class UserExpand.java
+    }
+
+    package vo {
+        class ExportInRegisterEntity.java
+        class ExportOutRegisterEntity.java
+        class ExportScoreEntity.java
+        class ExportScoreHistoryEntity.java
+        class InRegisterExtend.java
+        class OutRegisterExtend.java
+    }
+
+    package repository {
+        interface DormRepository.java
+        interface ExternalRepository.java
+        interface InRegisterRepository.java
+        interface OutRegisterRepository.java
+        interface RegisterBatchRepository.java
+        interface RepairRepository.java
+        interface ScoreRepository.java
+        interface ScoringbatchRepository.java
+        interface StaffRepository.java
+        interface StuRepository.java
+        interface UserRepository.java
+    }
+
+    package service {
+        interface DormServiceI.java
+        interface ExternalServiceI.java
+        interface LoginServiceI.java
+        interface RegisterServiceI.java
+        interface RepairServiceI.java
+        interface ScoreServiceI.java
+        interface StaffServiceI.java
+        interface StuServiceI.java
+
+        package impl {
+            class DormServiceImpl.java
+            class ExternalServiceImpl.java
+            class LoginServiceImpl.java
+            class RegisterServiceImpl.java
+            class RepairServiceImpl.java
+            class ScoreServiceImpl.java
+            class StaffServiceImpl.java
+            class StuServiceImpl.java
+        }
+    }
+}
+
+@enduml
