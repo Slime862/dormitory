@@ -78,8 +78,43 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+
 		</dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+		<!--Rest assured依赖包-->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>3.0.1</version>
+			<scope>test</scope><!--会发现我们自己建的类无法使用，是因为设置了只在测试时使用，用于编译和运行测试代码。不会随项目发布，删除<scope>后所有类都可使用-->
+		</dependency>
+		<!--独立Json path依赖包-->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>json-path</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+		<!--独立的Xml path依赖包-->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>xml-path</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+
+		<!-- Jackson (for JSON serialization/deserialization) -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+
+
+		</dependency>
+
 	</dependencies>
 
 	<build>

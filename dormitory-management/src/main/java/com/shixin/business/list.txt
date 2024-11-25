@@ -1,0 +1,74 @@
+卷 新加卷 的文件夹 PATH 列表
+卷序列号为 18C7-572E
+D:\USEDTOSHOOL\DORMITORY\DORMITORY-MANAGEMENT\SRC\MAIN\JAVA\COM\SHIXIN\BUSINESS
+│  Act.png
+│  Act.puml
+│  list.txt
+│  Sq.puml
+│  
+├─controller
+│      DormController.java
+│      ExternalController.java
+│      IndexController.java
+│      LoginController.java
+│      RegisterController.java
+│      ScoreController.java
+│      StaffController.java
+│      StuController.java
+│      
+├─domain
+│  │  Dorm.java
+│  │  External.java
+│  │  InRegister.java
+│  │  OutRegister.java
+│  │  Registerbatch.java
+│  │  Repair.java
+│  │  Score.java
+│  │  ScoreExtend.java
+│  │  Scoringbatch.java
+│  │  Staffinfo.java
+│  │  Stuinfo.java
+│  │  User.java
+│  │  UserExpand.java
+│  │  
+│  └─vo
+│          ExportInRegisterEntity.java
+│          ExportOutRegisterEntity.java
+│          ExportScoreEntity.java
+│          ExportScoreHistoryEntity.java
+│          InRegisterExtend.java
+│          OutRegisterExtend.java
+│          
+├─repository
+│      DormRepository.java
+│      ExternalRepository.java
+│      InRegisterRepository.java
+│      OutRegisterRepository.java
+│      RegisterBatchRepository.java
+│      RepairRepository.java
+│      ScoreRepository.java
+│      ScoringbatchRepository.java
+│      StaffRepository.java
+│      StuRepository.java
+│      UserRepository.java
+│      
+└─service
+    │  DormServiceI.java
+    │  ExternalServiceI.java
+    │  LoginServiceI.java
+    │  RegisterServiceI.java
+    │  RepairServiceI.java
+    │  ScoreServiceI.java
+    │  StaffServiceI.java
+    │  StuServiceI.java
+    │  
+    └─impl
+            DormServiceImpl.java
+            ExternalServiceImpl.java
+            LoginServiceImpl.java
+            RegisterServiceImpl.java
+            RepairServiceImpl.java
+            ScoreServiceImpl.java
+            StaffServiceImpl.java
+            StuServiceImpl.java
+            
