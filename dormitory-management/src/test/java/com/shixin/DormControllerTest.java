@@ -75,6 +75,7 @@ public class DormControllerTest {
     @Test
     public void testGetDormsNoData() {
         // 假设数据库中没有宿舍数据，调用 GET /dorms 接口
+
         given()
                 .cookie("JSESSIONID", sessionId)  // 使用登录后的 sessionId
                 .when()
