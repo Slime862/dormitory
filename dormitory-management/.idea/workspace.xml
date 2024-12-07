@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="480c3c0a-2221-4d1a-ae19-10cf2b8436c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/shixin/DormControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shixin/DormControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/shixin/DormitoryManagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shixin/DormitoryManagementApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,40 +198,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Activity&quot;,
-    &quot;JUnit.dormitory-management中的所有 (1).executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.dormitory-management中的所有 (2).executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.dormitory-management中的所有 (3).executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.dormitory-management中的所有 (4).executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.dormitory-management中的所有 (5).executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.dormitory-management中的所有.executor&quot;: &quot;Coverage&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.DormitoryManagementApplication.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/UsedToShool/dormitory/dormitory-management/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/UsedToShool/dormitory/dormitory-management&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4e60130cd5f144da7e02f140d1a4257c&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Activity",
+    "JUnit.DormControllerIntegrationTest.executor": "Run",
+    "JUnit.dormitory-management中的所有 (1).executor": "Coverage",
+    "JUnit.dormitory-management中的所有 (2).executor": "Coverage",
+    "JUnit.dormitory-management中的所有 (3).executor": "Coverage",
+    "JUnit.dormitory-management中的所有 (4).executor": "Coverage",
+    "JUnit.dormitory-management中的所有 (5).executor": "Coverage",
+    "JUnit.dormitory-management中的所有.executor": "Coverage",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.DormitoryManagementApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "D:/UsedToShool/dormitory/dormitory-management/src/test/java",
+    "last_opened_file_path": "D:/UsedToShool/dormitory/dormitory-management",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "4e60130cd5f144da7e02f140d1a4257c",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -259,16 +259,23 @@
       <visibility group="运行配置" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="JUnit.dormitory-management中的所有 (1)">
-    <configuration name="dormitory-management中的所有 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DormControllerIntegrationTest">
+    <configuration name="DormControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dormitory-management" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shixin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shixin" />
+      <option name="MAIN_CLASS_NAME" value="com.shixin.DormControllerIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dormitory-management中的所有 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="dormitory-management中的所有 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dormitory-management" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -309,11 +316,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DormControllerIntegrationTest" />
         <item itemvalue="JUnit.dormitory-management中的所有 (1)" />
         <item itemvalue="JUnit.dormitory-management中的所有" />
         <item itemvalue="JUnit.dormitory-management中的所有 (5)" />
         <item itemvalue="JUnit.dormitory-management中的所有 (4)" />
-        <item itemvalue="JUnit.dormitory-management中的所有 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -362,6 +369,9 @@
       <workItem from="1732516706272" duration="2153000" />
       <workItem from="1732519896772" duration="497000" />
       <workItem from="1732522356564" duration="12843000" />
+      <workItem from="1733053280342" duration="182000" />
+      <workItem from="1733468526389" duration="4941000" />
+      <workItem from="1733545227373" duration="3740000" />
     </task>
     <servers />
   </component>
@@ -406,6 +416,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
