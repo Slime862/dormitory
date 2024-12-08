@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="480c3c0a-2221-4d1a-ae19-10cf2b8436c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shixin/DormServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shixin/DormControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shixin/DormControllerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shixin/DormControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shixin/DormControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/shixin/s.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/shixin/DormControllerIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/shixin/DormControllerIntegrationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/shixin/DormControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/shixin/DormControllerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +208,7 @@
   "keyToString": {
     "DefaultPlantUmlFileTemplate": "UML Activity",
     "JUnit.DormControllerIntegrationTest.executor": "Run",
+    "JUnit.DormControllerTest.executor": "Run",
     "JUnit.dormitory-management中的所有 (1).executor": "Coverage",
     "JUnit.dormitory-management中的所有 (2).executor": "Coverage",
     "JUnit.dormitory-management中的所有 (3).executor": "Coverage",
@@ -259,7 +266,7 @@
       <visibility group="运行配置" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="JUnit.DormControllerIntegrationTest">
+  <component name="RunManager" selected="JUnit.DormControllerTest">
     <configuration name="DormControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dormitory-management" />
       <extension name="coverage">
@@ -275,15 +282,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dormitory-management中的所有 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DormControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dormitory-management" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shixin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shixin" />
+      <option name="MAIN_CLASS_NAME" value="com.shixin.DormControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dormitory-management中的所有 (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="dormitory-management中的所有 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dormitory-management" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -316,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DormControllerTest" />
         <item itemvalue="JUnit.DormControllerIntegrationTest" />
         <item itemvalue="JUnit.dormitory-management中的所有 (1)" />
         <item itemvalue="JUnit.dormitory-management中的所有" />
         <item itemvalue="JUnit.dormitory-management中的所有 (5)" />
-        <item itemvalue="JUnit.dormitory-management中的所有 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +385,8 @@
       <workItem from="1732522356564" duration="12843000" />
       <workItem from="1733053280342" duration="182000" />
       <workItem from="1733468526389" duration="4941000" />
-      <workItem from="1733545227373" duration="3740000" />
+      <workItem from="1733545227373" duration="6047000" />
+      <workItem from="1733642769686" duration="10169000" />
     </task>
     <servers />
   </component>
