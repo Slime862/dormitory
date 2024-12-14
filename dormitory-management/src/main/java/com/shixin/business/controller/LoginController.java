@@ -5,10 +5,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import com.shixin.business.domain.User;
 import com.shixin.business.domain.UserExpand;
@@ -37,6 +34,8 @@ public class LoginController {
 
 	@PostMapping("")
 	public String login(User user, HttpSession session, Model model) {
+
+
 		UserExpand info = loginServiceI.getUserLoginInfo(user);
 		if (null != info) {
 			session.setAttribute("LOGIN_USER", info);
