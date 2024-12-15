@@ -24,7 +24,7 @@
         }
 
         .nav {
-            background-color: #000000e3;
+            background-color: grey;
         }
 
         .navbar-item {
